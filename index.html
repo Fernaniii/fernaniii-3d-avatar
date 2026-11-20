@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fernaniii – Hero Showcase</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- Left column: specs and abilities (filled in by ui.ts) -->
+      <aside id="panel" aria-label="Character specs"></aside>
+      <!-- Right column: the Three.js canvas is appended here (see scene.ts) -->
+      <main id="viewport">
+        <div class="hint">Drag to rotate · Scroll to zoom · WASD walk (+Shift run) / Space (hold) / E / Shift / C / F / K / B (+ 1-5) / Click</div>
+      </main>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
